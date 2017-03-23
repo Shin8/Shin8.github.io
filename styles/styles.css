@@ -100,13 +100,19 @@ a{
   list-style: none;
   transition: font-size .1s ease;
 }
-a:hover{
-  font-size: xx-large;
-}
 a:link{
   color: white;
   font-weight: bolder;
   text-decoration: none;
+}
+a:visited{
+  color: white;
+}
+a:hover{
+  font-size: xx-large;
+}
+a:active{
+  color: white;
 }
 @media (max-width: 700px) {
   .navbar{
