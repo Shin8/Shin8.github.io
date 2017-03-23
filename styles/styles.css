@@ -112,6 +112,7 @@ a:hover{
   font-size: xx-large;
 }
 a:active{
+  font-size: x-large;
 }
 @media (max-width: 700px) {
   .navbar{
